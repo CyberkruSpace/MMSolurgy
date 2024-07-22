@@ -1,8 +1,10 @@
 /*------------------CSS By CyberKRU----------------*/
 :root {
-    --primary: #32C36C;
+    --primary: #000080;
+    --bs-primary: #000080;
     --light: #F6F7F8;
     --dark: #1A2A36;
+
 }
 
 .fw-medium {
@@ -47,6 +49,9 @@
     opacity: 1;
 }
 
+.spinner-border.text-primary {
+    color: var(--primary);
+}
 
 /*** Button ***/
 .btn {
@@ -246,14 +251,14 @@ p.fs-5 {
     font-style: italic;
     font-size: 1.2em;
     color: #555;
-    border-left: 8px solid #78C0A8;
+    border-left: 8px solid #1b09b9;
     line-height: 1.6;
     margin: 30px 0;
     padding: 10px 20px;
     quotes: "\201C""\201D""\2018""\2019";
 }
 .quote::before {
-    color: #78C0A8;
+    color: #1b09b9;
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
@@ -634,7 +639,7 @@ p.fs-5 {
 .cover {
     display: flex;
     justify-content: center;
-    background-color: #32C36C; 
+    background-color: #000080; 
     padding: 20px;
     border-radius: 10px;
 }
@@ -652,3 +657,4 @@ p.fs-5 {
 .wing p {
     font-size: 20px;
     font-weight: bold;
+}
