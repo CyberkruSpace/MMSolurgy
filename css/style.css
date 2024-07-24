@@ -164,12 +164,17 @@
     left: 0;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, 0.260);
 }
 
 p.fs-5 {
     background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity as needed */
     padding: 10px; /* Add some padding so the text isn't too close to the edge */
+}
+
+h1.display-2{
+    font-weight: 900;
+    color: #9B9B9B;
 }
 
 @media (max-width: 768px) {
@@ -239,11 +244,14 @@ p.fs-5 {
 
 .logo{
     height: 50px;
-    filter: hue-rotate(90deg);
     padding-right: 10px;
 }
 
-
+@media (min-width: 300px) {
+    .logo{
+        height: 30px;
+    }
+}
 
 
 /*** About ***/
@@ -267,6 +275,15 @@ p.fs-5 {
 }
 .quote p {
     display: inline;
+}
+@media (min-width: 300px) {
+    .container.about {
+        max-width: 100% !important;
+    }
+
+    .about-text  {
+        padding-right: calc(((100% - 960px) / 2) + .75rem);
+    }
 }
 
 @media (min-width: 992px) {
