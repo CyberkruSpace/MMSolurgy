@@ -243,16 +243,21 @@ h1.display-2{
 }
 
 .logo{
-    height: 50px;
+    height: 75px;
     padding-right: 10px;
 }
 
 @media (min-width: 300px) {
     .logo{
-        height: 30px;
+        height: 40px;
     }
 }
 
+@media (min-width: 992px) {
+    .logo{
+        height: 75px;
+    }
+}
 
 /*** About ***/
 .quote {
